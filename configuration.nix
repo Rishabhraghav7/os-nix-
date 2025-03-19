@@ -322,7 +322,7 @@
       ++ [
         inputs.zen-browser.packages."${system}".default
         # pkgsUnstable.zed-editor
-        pkgsUnstable.postman
+        # pkgsUnstable.postman
         # inputs.zed.packages."${system}"
         # inputs.firefox-nightly.packages.${pkgs.system}.firefox-nightly-bin
       ];
