@@ -342,6 +342,8 @@
       alacritty
       warp-terminal
       wezterm
+      ghostty
+      nnn
       mako
       libsecret # Required for gnome keyring unlocking
       qt5.qtwayland
