@@ -190,7 +190,7 @@
   users.users.rishabh = {
     isNormalUser = true;
     description = "rishabh";
-    shell = pkgs.bash;
+    shell = pkgs.nushell;
     extraGroups = [
       "networkmanager"
       "wheel"
