@@ -338,6 +338,7 @@
       git
       # keyd
       yazi
+      micro
       killall
       alacritty
       warp-terminal
@@ -366,6 +367,15 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  environment = {
+    shells = [ pkgs.bash ];
+    variables = {
+      EDITOR = "micro";
+      SYSTEMD_EDITOR = "micro";
+      VISUAL = "micro";
+    };
+  };
 
   # Keyd service
   # services.keyd.enable = true;
