@@ -336,6 +336,7 @@
       #  wget
       neovim
       git
+      nushell
       # keyd
       yazi
       micro
