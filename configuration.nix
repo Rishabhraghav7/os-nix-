@@ -335,6 +335,8 @@
     [
       #  wget
       neovim
+      helix
+      broot
       git
       nushell
       # keyd
